@@ -1,0 +1,109 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# uv
+# ==========================
+.python-version
+
+# Lock file
+# Keep this if you're building an application (recommended)
+# Remove this line if you want to commit the lock file.
+# uv.lock
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+
+# ==========================
+# Type Checking / Linting
+# ==========================
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================
+# Data
+# ==========================
+data/raw/
+data/cache/
+data/tmp/
+*.sqlite3
+*.db
+
+# Ignore downloaded models
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# ==========================
+# Temporary files
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# Coverage
+# ==========================
+.coverage
+coverage.xml
